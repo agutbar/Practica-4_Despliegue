@@ -1,0 +1,23 @@
+body{
+    #title-enroll{
+        padding-top: 15%;
+        padding-bottom: 5%;
+        background-image: url(img/mainBackground.png);
+        .jumbotrol{
+            .container-fluid{
+                color: white;
+                h1{
+                    text-transform: uppercase;
+                    font-family: 'MedievalSharp';
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    #footer{
+        background-color: darkcyan;
+    }
+}

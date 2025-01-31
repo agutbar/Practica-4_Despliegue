@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Suma Acumulativa</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body class="container mt-4">
+    <dl>
+        <dt><b>ENUNCIADO</b></dt>
+        <dd>Diseña un formulario que pida al usuario un número N. Al enviar el formulario, el programa debe calcular y mostrar la suma de todos los números desde 1 hasta N.</dd>
+        <br/>
+        <dt><b>FORMULARIO</b></dt>
+        <dd>
+            <form action="suma_php.php" method="$_GET" class="form-group">
+                <label for="numero">Introduce un número</label>
+                <input type="number" id="numero" name="numero" class="form-control" required/> <br/>
+                <input type="submit" value="Ver suma acumulativa" class="btn btn-primary"/>
+            </form>
+        </dd>
+    </dl>
+    <!-- Enlace a Bootstrap JS y dependencias -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="suma_js.js"></script>
+</body>
+</html>

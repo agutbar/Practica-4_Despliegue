@@ -1,0 +1,45 @@
+body{
+    #title-enroll{
+        padding-top: 15%;
+        padding-bottom: 5%;
+        background-image: url(img/mainBackground.png);
+        .jumbotrol{
+            .container-fluid{
+                color: white;
+                h1{
+                    text-transform: uppercase;
+                    font-family: 'MedievalSharp';
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    #title-class{
+        background-color: gray;
+        padding-top: 2%;
+        .jumbotrol{
+            .container-fluid{
+                color: black;
+                h1{
+                    text-transform: uppercase;
+                    font-family: 'MedievalSharp';
+                    text-align: center;
+                }
+            }
+            #video{
+                display: flex;
+                justify-content: center;
+                padding-bottom: 3%;
+                iframe{
+                    size: 100%;
+                }
+            }
+        }
+    }
+    #footer{
+        background-color: darkcyan;
+    }
+}

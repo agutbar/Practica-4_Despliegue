@@ -1,0 +1,103 @@
+body{
+    #title-enroll{
+        padding-top: 15%;
+        padding-bottom: 5%;
+        background-image: url(img/mainBackground.png);
+        .jumbotrol{
+            .container-fluid{
+                color: white;
+                h1{
+                    text-transform: uppercase;
+                    font-family: 'MedievalSharp';
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    #what-learn{
+        .container{
+            h2{
+                text-align: center;
+                font-family: "Comic Sans MS";
+            }
+            .lead{
+                text-align: center;
+            }
+            .row{
+                display: flex;
+                flex-direction: row;
+                .col-sm-4{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    #course-target{
+        background-color: blueviolet;
+        padding-top: 2%;
+        .container{
+            .header-section{
+                h2{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    #course-features{
+        padding: 2%;
+    }
+
+    #instructor{
+        background-color: gray;
+        .container{
+            .row{
+                div{
+                    #iconos{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+    }
+
+    #video{
+        background-color: blueviolet;
+        padding: 2%;
+        .container-fluid{
+            .header-section{
+                text-transform: uppercase;
+                font-family: 'MedievalSharp';
+                text-align: center;
+                color: white;
+                padding: 2%;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                iframe{
+                    size: 100%;
+                }
+            }
+        }
+    }
+
+    #inscripcion{
+        margin: 3%;
+        .container-fluid{
+            div{
+                #texto{
+                    font-size: x-large;
+                }
+            }
+        }
+    }
+
+    #footer{
+        background-color: darkcyan;
+    }
+}

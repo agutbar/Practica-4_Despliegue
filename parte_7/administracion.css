@@ -1,0 +1,39 @@
+body{
+    #title-enroll{
+        padding-top: 15%;
+        padding-bottom: 5%;
+        background-image: url(img/mainBackground.png);
+        .jumbotrol{
+            .container-fluid{
+                color: white;
+                h1{
+                    text-transform: uppercase;
+                    font-family: 'MedievalSharp';
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    #admin-course{
+        .container{
+            .row{
+                div{
+                    .tab-content{
+                        border: 1px solid gray;
+                        margin-top: 1%;
+                        margin-bottom: 1%;
+                        padding: 1%;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer{
+        background-color: darkcyan;
+    }
+}
